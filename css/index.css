@@ -1,0 +1,81 @@
+/* 
+
+.demo{
+    color: white;
+    background: red;
+}
+
+.demo::before{
+    content: "Aysel";
+    background: purple;
+    color: white;
+}
+
+.demo::after{
+    content: "Aynur";
+    background: yellow;
+    color: red;
+} */
+
+
+
+.flag{
+    width: 500px;
+    height: 70px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+
+.flag::before{
+    content: "";
+    width: 500px;
+    height: 70px;
+    background: blue;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGAQaNCVffTy0hJC_EFVNx2aLgUNFW56osGK3IFHXwxqXbmi4iiy0aiEdrB1-V1Iurw&usqp=CAU');
+    background-repeat: repeat-x;
+    background-size: contain; */
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: -70px;
+
+
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flag::after{
+    content: "";
+    width: 500px;
+    height: 70px;
+    background: green;
+    /* background-image: url('../img/wave.jpg'); */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGAQaNCVffTy0hJC_EFVNx2aLgUNFW56osGK3IFHXwxqXbmi4iiy0aiEdrB1-V1Iurw&usqp=CAU');
+    background-repeat: repeat-x;
+    background-size: contain; */
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+
+
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
